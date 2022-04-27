@@ -1,28 +1,27 @@
 <template>
   <div id="home">
-    <header class="header">
-      <div class="container my-3 col">
-        <div
-          class="d-md-flex flex-row justify-content-center align-items-center"
-        >
-          <div class="col-8">
-            <h1 class="h1">Kranio</h1>
+    <header class="header d-md-flex flex-row justify-content-center align-items-center">
+      <div class="container col-10 h-100 row">
+        
+          <div class="col-7">
+            <h1 class="h1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h1>
             <p class="lead-4 my-4">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
               erat.
             </p>
+            <router-link to="/contact">
             <button class="btn btn-primary mt-4" type="button">
               Jetzt Kontaktieren
-            </button>
+            </button></router-link>
           </div>
           <div class="col"></div>
-        </div>
+       
       </div>
     </header>
     <section class="section">
-      <div class="container my-3 col-7">
-        <div class="row">
+      <div class="container py-5 col-7">
+        <div class="row mt-5">
           <h2 class="h3 text-center">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr lorem ipsum
             dolor sit amet, consetetur elitr
@@ -30,8 +29,8 @@
         </div>
       </div>
     </section>
-    <section class="section my-5 py-5">
-      <div class="container my-3 col">
+    <section class="section py-5" id="kinesiologie">
+      <div class="container py-4  col">
         <div
           class="d-md-flex flex-row justify-content-center align-items-center"
         >
@@ -52,13 +51,14 @@
               elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
               magna aliquyam erat
             </p>
-            <a href="#" class="link-primary text-uppercase">Primary link</a>
+            <router-link to="/contact" class="link-primary text-uppercase">Primary link</router-link>
+            
           </div>
         </div>
       </div>
     </section>
-    <section class="section my-5 py-5">
-      <div class="container my-3 col">
+    <section class="section my-5 py-5" id="cranio">
+      <div class="container py-4 my-3 col">
         <div
           class="d-md-flex flex-row justify-content-center align-items-center"
         >
@@ -73,7 +73,7 @@
               elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
               magna aliquyam erat
             </p>
-            <a href="#" class="link-primary text-uppercase">Primary link</a>
+            <router-link to="/contact" class="link-primary text-uppercase">Primary link</router-link>
           </div>
           <div class="col mx-md-5 px-md-4">
             <img
@@ -84,10 +84,10 @@
         </div>
       </div>
     </section>
-    <section class="section my-5 py-5">
-      <div class="container my-3 col">
+    <section class="section my-5 py-5 bg-grey" id="behandlung">
+      <div class="container py-5 my-5 col">
         <div
-          class="d-md-flex flex-row justify-content-center align-items-center"
+          class=" d-md-flex flex-row justify-content-center align-items-center"
         >
           <div class="col mx-md-5 px-md-4">
             <img
@@ -124,7 +124,7 @@
       </div>
     </section>
     <section class="section my-5 py-5">
-      <div class="container my-3 col">
+      <div class="container py-5 my-5 mt-0 col">
         <h2 class="h1 text-center py-5">Lorem ipsum</h2>
 
         <div class="row mt-5">
@@ -206,8 +206,8 @@
         </div>
       </div>
     </section>
-    <section class="section my-5 py-5">
-      <div class="container my-3 col-7">
+    <section class="section my-5 py-5 bg-grey" id="about">
+      <div class="container my-5 py-5 col-7">
         <div
           class="d-md-flex flex-row justify-content-center align-items-start"
         >
@@ -266,9 +266,11 @@
               <div class="col h6">Lorem Ipsum Dolor sit Amet</div>
             </div>
             <div class="mt-3">
+              <router-link to="/contact">
               <button class="btn btn-primary mt-5" type="button">
                 Jetzt Kontaktieren
               </button>
+              </router-link>
             </div>
           </div>
           <div class="col-4 mx-md-5 px-md-5">
@@ -278,7 +280,7 @@
       </div>
     </section>
     <section class="section my-5 py-5">
-      <div class="container my-3 col-7">
+      <div class="container my-5 py-5 mt-0 col-7">
         <h2 class="h1 text-center py-5">Lorem ipsum</h2>
         <p class="lead-4">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -353,6 +355,26 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+    <section class="section bg-gradient-new">
+     <div class="container py-5 col">
+        <div
+          class="d-md-flex flex-row justify-content-center align-items-center"
+        >
+          <div class="col-7 py-5">
+            <h1 class="h1 text-white">Sed diam
+              nonumy eirmod tempor invidunt ut labore</h1>
+            <p class="h5 my-4 text-white">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+            </p>
+            <router-link to="/contact">
+            <button class="btn btn-secondary-white mt-4" type="button">
+              Jetzt Kontaktieren
+            </button></router-link>
+          </div>
+          <div class="col"></div>
         </div>
       </div>
     </section>
