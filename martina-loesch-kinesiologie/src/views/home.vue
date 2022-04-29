@@ -36,7 +36,7 @@
         >
           <div class="col mx-md-5 px-md-4">
             <img
-              src="../assets/sections/Kinesiologie.jpg"
+              src="../assets/sections/Martina_038.jpg"
               class="w-100 rounded"
             />
           </div>
@@ -77,7 +77,7 @@
           </div>
           <div class="col mx-md-5 px-md-4">
             <img
-              src="../assets/sections/Kinesiologie.jpg"
+              src="../assets/sections/Martina_047.jpg"
               class="w-100 rounded"
             />
           </div>
@@ -91,7 +91,7 @@
         >
           <div class="col mx-md-5 px-md-4">
             <img
-              src="../assets/sections/Kinesiologie.jpg"
+              src="../assets/sections/Martina_005.jpg"
               class="w-100 rounded"
             />
           </div>
@@ -274,7 +274,7 @@
             </div>
           </div>
           <div class="col-4 mx-md-5 px-md-5">
-            <img src="../assets/sections/portrait.jpg" class="w-100 rounded" />
+            <img src="../assets/sections/Martina_104.jpg" class="w-100 rounded" />
           </div>
         </div>
       </div>

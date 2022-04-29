@@ -32,7 +32,9 @@ html {
 }
 
 .header {
-  background-image: url("assets/sections/banner-img.png");
+  background:linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("assets/sections/Martina_124_flipped.jpg");
+  background-size:cover;
+  background-position-y: 20%;
   min-height: 60vh;
 }
 
