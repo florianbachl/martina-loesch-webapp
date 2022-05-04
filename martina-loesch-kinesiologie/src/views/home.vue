@@ -1,7 +1,7 @@
 <template>
   <div id="home">
     <header class="header">
-      <div class="container mx-md-auto h-100">
+      <div class="container py-5 mx-md-auto h-100">
         <div class="col-12 py-5 col-md-7">
           <h1 class="h1">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr
@@ -34,10 +34,10 @@
         <div
           class="d-md-flex flex-row justify-content-center align-items-center"
         >
-          <div class="col mx-lg-3 px-md-4">
+          <div class="col mx-lg-3">
             <img
-              src="../assets/sections/Martina_038.jpg"
-              class="w-100 rounded"
+              src="../assets/sections/test2.png"
+              class="w-100"
             />
           </div>
           <div class="col mx-lg-3 px-md-4 my-4 my-md-0">
@@ -78,10 +78,10 @@
               >Primary link</router-link
             >
           </div>
-          <div class="col mx-lg-3 px-md-4">
+          <div class="col mx-lg-3 ">
             <img
-              src="../assets/sections/Martina_047.jpg"
-              class="w-100 rounded"
+              src="../assets/sections/test4.png"
+              class="w-100"
             />
           </div>
         </div>
@@ -92,10 +92,10 @@
         <div
           class="d-md-flex flex-row justify-content-center align-items-center"
         >
-          <div class="col mx-lg-3 px-md-4">
+          <div class="col mx-lg-3">
             <img
-              src="../assets/sections/Martina_005.jpg"
-              class="w-100 rounded"
+              src="../assets/sections/test1.png"
+              class="w-100"
             />
           </div>
           <div class="col mx-lg-3 px-md-4 my-4 my-md-0">
@@ -208,10 +208,9 @@
           </div>
         </div>
         <div
-          class=" d-flex flex-column align-items-start justify-content-start"
+          class="d-flex flex-column align-items-start justify-content-start"
           id="steps-for-mobile"
         >
-
           <div class="col row">
             <div
               class="col-auto d-flex flex-column justify-content-center align-items-center"
@@ -242,9 +241,9 @@
               <div
                 class="icon-wrapping icon-wrapping-wave d-flex flex-row justify-content-center align-items-center"
               >
-                 <span class="material-icons material-icons-wave"
-                    >waving_hand</span
-                  >
+                <span class="material-icons material-icons-wave"
+                  >waving_hand</span
+                >
               </div>
 
               <div class="vl my-4"></div>
@@ -258,14 +257,14 @@
               </p></span
             >
           </div>
-           <div class="col row">
+          <div class="col row">
             <div
               class="col-auto d-flex flex-column justify-content-center align-items-center"
             >
               <div
                 class="icon-wrapping icon-wrapping-smile d-flex flex-row justify-content-center align-items-center"
               >
-                 <span class="material-icons material-icons-smile">mood</span>
+                <span class="material-icons material-icons-smile">mood</span>
               </div>
 
               <div class="vl my-4"></div>
@@ -282,12 +281,18 @@
         </div>
       </div>
     </section>
-    <section class="section my-lg-5 py-lg-5 bg-grey" id="about">
+    <section class="section my-md-5 py-md-5 bg-grey" id="about">
       <div class="container py-4 col-12 col-md-10 col-xl-8">
         <div
-          class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-start"
+          class="d-md-flex flex-md-row-reverse justify-content-md-center align-items-md-start"
         >
-          <div class="col-12 col-md-8 col-xl-8 px-md-3 my-4 my-xl-0">
+          <div class="col-12 col-sm-6 col-md-5 col-lg-4 px-md-3 py-3 py-md-3" id="about-img">
+            <img
+              src="../assets/sections/Martina_104.jpg"
+              class="w-100 rounded mx-auto shadow"
+            />
+          </div>
+          <div class=" col-md-7 col-lg-8 px-md-3 mx-md-4 my-4 my-xl-0">
             <h2 class="h1">Kranio</h2>
             <p class="lead-4 my-4">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -349,22 +354,13 @@
               </router-link>
             </div>
           </div>
-          <div
-            class="col-10 col-md-4 col-xl-4 px-md-3"
-            id="about-img"
-          >
-            <img
-              src="../assets/sections/Martina_104.jpg"
-              class="w-100 rounded"
-            />
-          </div>
         </div>
       </div>
     </section>
-    <section class="section my-5 py-5">
-      <div class="container my-5 py-5 mt-0 col-7">
-        <h2 class="h1 text-center py-5">Lorem ipsum</h2>
-        <p class="lead-4">
+    <section class="section my-lg-5 py-lg-5">
+      <div class="container py-5 my-5 col-12 col-lg-9">
+        <h2 class="h1 text-center ">Lorem ipsum</h2>
+        <p class="lead-4 mt-5">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -372,7 +368,7 @@
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
         </p>
-        <div class="row mt-5">
+        <div class="d-md-flex flex-md-row justify-content-center align-items-center mt-5">
           <div class="col">
             <div class="row mt-4">
               <div class="col-auto">
@@ -445,7 +441,7 @@
         <div
           class="d-md-flex flex-row justify-content-center align-items-center"
         >
-          <div class="col-7 py-5">
+          <div class="col-12 col-md-10 col-lg-7 py-5">
             <h1 class="h1 text-white">
               Sed diam nonumy eirmod tempor invidunt ut labore
             </h1>
@@ -494,6 +490,10 @@ export default {
     rgba(224, 218, 51, 0.10968137254901966) 0%,
     rgba(254, 136, 1, 0.10968137254901966) 100%
   );
+}
+
+.h6{
+  margin-bottom: 0px;
 }
 
 .icon-wrapping-achievement {
@@ -561,10 +561,17 @@ export default {
 #steps-for-desktop {
 }
 
-.vl{
+.vl {
   border-left: 1px solid lightgray;
   min-height: 100px;
   height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  #about-img {
+    position: relative;
+    top: 0;
+  }
 }
 
 @media only screen and (max-width: 590px) {
@@ -572,13 +579,19 @@ export default {
     display: block !important;
   }
 
+  #about-img img{
+    max-width: 400px;
+  }
+
   #steps-for-desktop {
     display: none;
   }
 
-  .icon-wrapping{
+  .icon-wrapping:not(.icon-wrapping-achievement) {
     margin: 0px;
     margin-top: 17px;
   }
 }
+
+
 </style>
