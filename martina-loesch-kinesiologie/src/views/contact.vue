@@ -7,67 +7,75 @@
         <div class="row">
           <div class="col">
             <h1 class="h1">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+              Kontakt
             </h1>
             <p class="lead-4 my-4">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat.
+              Erzähl mir etwas mehr über deine Anfrage
             </p>
           </div>
           <div class="col">
-            <form>
+            <form accept-charset="UTF-8" :action="botcheck ? '':'https://www.formbackend.com/f/6a2829b2e9dd63e9'" method="POST">
               <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
+                <label for="email">Email Adresse</label>
                 <input
                   type="email"
+                  name="email"
                   class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="name@example.com"
+                  id="email"
+                  v-model="email"
+                  required
+                  placeholder="martina@kinesiologie.com"
                 />
               </div>
               <div class="form-group mt-3">
-                <label for="exampleFormControlInput1">Email address</label>
+                <label for="name">Name</label>
                 <input
-                  type="email"
+                  type="text"
+                  name="name"
                   class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="name@example.com"
+                  v-model="name"
+                  required
+                  id="name"
+                  placeholder="Martina"
                 />
               </div>
               <div class="form-group mt-3">
-                <label for="exampleFormControlSelect1">Example select</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
+                <label for="selecttheme">Wähle ein Thema aus</label>
+                <select
+                  class="form-control"
+                  name="thema"
+                  id="selecttheme"
+                  v-model="chosenoption"
+                >
+                  <option v-for="op in options" :key="op" :value="op">
+                    {{ op }}
+                  </option>
                 </select>
               </div>
 
               <div class="form-group mt-3">
-                <label for="exampleFormControlTextarea1"
-                  >Example textarea</label
-                >
+                <label for="text">Deine Nachricht</label>
                 <textarea
                   class="form-control"
-                  id="exampleFormControlTextarea1"
+                  id="text"
+                  name="nachricht"
                   rows="3"
+                  required
+                  v-model="text"
                 ></textarea>
               </div>
-              <div class="form-check mt-4">
+              <div class="form-check invisible">
                 <input
                   class="form-check-input"
                   type="checkbox"
-                  value=""
+                  v-model="botcheck"
                   id="defaultCheck1"
                 />
                 <label class="form-check-label" for="defaultCheck1">
                   Default checkbox
                 </label>
               </div>
-              <button class="btn btn-primary mt-5" type="button">
+              <button class="btn btn-primary mt-5" type="submit">
                 Jetzt Kontaktieren
               </button>
             </form>
@@ -82,12 +90,30 @@
 export default {
   name: "contact-comp",
   data() {
-    return {};
+    return {
+      text: "",
+      botcheck: false,
+      email: "",
+      name: "",
+      chosenoption: null,
+      options: [
+        "Ich möchte einen Termin buchen",
+        "Ich habe Fragen zu den Behandlungen",
+        "Ich habe Fragen zu den Tarifen",
+        "Andere ...",
+      ],
+    };
   },
   components: {},
   computed: {},
   watch: {},
-  methods: {},
+  methods: {
+    sendemail(){
+      if(!this.botcheck){
+        console.log("I am in");
+      }
+    }
+  },
   mounted() {
     window.scrollTo(0, 0);
   },

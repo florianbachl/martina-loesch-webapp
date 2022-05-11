@@ -2,7 +2,9 @@
   <div id="nav">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid col-xl-10">
-         <router-link class="navbar-brand" to="/">Navbar</router-link>
+         <router-link class="navbar-brand" to="/">
+           <img src="../assets/sections/logo.png" alt="">
+         </router-link>
         <button
           class="navbar-toggler"
           type="button"
@@ -62,5 +64,17 @@ export default {
 
 .navbar{
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand{
+    padding: 0px;
+  margin: 0px;
+  margin-right: 1rem;
+}
+
+.navbar-brand img{
+  height: 35px;
+  padding: 0px;
+  margin: 0px;
 }
 </style>

@@ -4,16 +4,18 @@
       <div class="container py-5 mx-md-auto h-100">
         <div class="col-12 py-5 col-md-7">
           <h1 class="h1">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+            Dein Weg zu innerer Balance und Wohlbefinden mit Heilmassagen
           </h1>
           <p class="lead-4 my-4">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat.
+            Mit viel Gefühl und einem fundierten Fachwissen lassen sich durch
+            einfache Berührungen innere Blockaden, seelisches Ungleichgewicht
+            und Schmerzen unbekannter Ursache aufheben. Durch individuelle
+            Behandlungsmethoden wird der Körper wieder ins Gleichgewicht
+            versetzt und startet einen Selbstheilungsprozess.
           </p>
           <router-link to="/contact">
             <button class="btn btn-primary mt-4" type="button">
-              Jetzt Kontaktieren
+            Innere Balance wiederfinden
             </button></router-link
           >
         </div>
@@ -23,8 +25,8 @@
       <div class="container py-5 col-lg-7">
         <div class="row mt-5">
           <h2 class="h3 text-center">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr lorem ipsum
-            dolor sit amet, consetetur elitr
+            „Es gibt nichts Sinnvolleres, als in die eigene Gesundheit zu
+            investieren!“
           </h2>
         </div>
       </div>
@@ -35,24 +37,27 @@
           class="d-md-flex flex-row justify-content-center align-items-center"
         >
           <div class="col mx-lg-3">
-            <img
-              src="../assets/sections/test2.png"
-              class="w-100"
-            />
+            <img src="../assets/sections/test2.png" class="w-100" />
           </div>
           <div class="col mx-lg-3 px-md-4 my-4 my-md-0">
-            <h2 class="h1">Kranio</h2>
+            <h2 class="h1">Kinesiologie</h2>
             <p class="lead-4 my-4">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-              diam nonumy eirmod tempor invidunt ut labore et dolore magna
-              aliquyam erat. Lorem ipsum dolor sit amet, consetetur sadipscing
-              elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-              magna aliquyam erat
+              Jeder von uns macht im Laufe seines Lebens unzählige Erfahrungen,
+              sei es Positive als auch Negative. Manche davon empfinden wir
+              unmittelbar als belastend oder aber auch als wunderschön, andere
+              wiederum werden von uns gar nicht bewusst wahrgenommen. All diese
+              Empfindungen nimmt unser Unterbewusstsein wahr und speichert sie
+              in verschiedenen Körperregionen ab. So kann es passieren, dass
+              diese Emotionen an gewissen Punkten plötzlich zu viel werden.
+              Symptome dieser Überlastung zeigen sich auf verschiedenste Art,
+              wie durch Schmerzen unbekannter Ursache, seelisches
+              Ungleichgewicht, allgemeines Unwohlsein und Verstimmtheit. Anhand
+              eines Muskeltests können derartige Emotionen im Körper aufgespürt
+              und Schicht für Schicht gelöst werden, sodass die gezeigten
+              Symptome sehr oft zur Gänze wieder verschwinden.
             </p>
             <router-link to="/contact" class="link-primary text-uppercase"
-              >Primary link</router-link
+              >GEMEINSAM ZUM GLEICHGEWICHT</router-link
             >
           </div>
         </div>
@@ -64,25 +69,27 @@
           class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-center"
         >
           <div class="col mx-lg-3 px-md-4 my-4 my-md-0">
-            <h2 class="h1">Kranio</h2>
+            <h2 class="h1">Craniosacrale Systemtherapie</h2>
             <p class="lead-4 my-4">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-              diam nonumy eirmod tempor invidunt ut labore et dolore magna
-              aliquyam erat. Lorem ipsum dolor sit amet, consetetur sadipscing
-              elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-              magna aliquyam erat
+              Als Basis für diese Behandlung dient, dass die Gehirnflüssigkeit
+              (Liquor) in einem eigenständigen Rhythmus vom Gehirn über das
+              gesamte Rückenmark fließt. Dadurch werden rhythmische Bewegungen
+              in den Knochenanteilen des craniosacralen Systems erzeugt, die
+              über die Verbindung durch das Bindegewebe aber überall am Körper
+              wahrnehmbar sind. Sollte der Liqour durch Vorliegen von
+              Verspannungen oder Blockaden nicht mehr frei fließen können, kann
+              es zu Beschwerden aller Art kommen. Durch sanfte und
+              unterstützende Berührungen kann die Selbstheilung angeregt werden,
+              wodurch eine Tiefenentspannung des gesamten Nervensystems
+              eintritt. Die Blockaden können sich lösen und der Liquor wieder
+              uneingeschränkt fließen.
             </p>
             <router-link to="/contact" class="link-primary text-uppercase"
-              >Primary link</router-link
+              >JETZT BLOCKADEN LÖSEN</router-link
             >
           </div>
-          <div class="col mx-lg-3 ">
-            <img
-              src="../assets/sections/test4.png"
-              class="w-100"
-            />
+          <div class="col mx-lg-3">
+            <img src="../assets/Group4.png" class="w-100" />
           </div>
         </div>
       </div>
@@ -93,34 +100,34 @@
           class="d-md-flex flex-row justify-content-center align-items-center"
         >
           <div class="col mx-lg-3">
-            <img
-              src="../assets/sections/test1.png"
-              class="w-100"
-            />
+            <img src="../assets/Group1.png" class="w-100" />
           </div>
           <div class="col mx-lg-3 px-md-4 my-4 my-md-0">
-            <h2 class="h1">Kranio</h2>
+            <h2 class="h1">Die richtige Behandlung für Sie</h2>
             <p class="lead-4 my-4">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-              diam nonumy eirmod tempor invidunt ut labore et dolore magna
-              aliquyam erat. Lorem ipsum dolor sit amet, consetetur sadipscing
-              elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-              magna aliquyam erat
+              Als Therapeutin ist für mich zu Beginn wichtig, die Wünsche und
+              Probleme des Kunden zu erfragen. Mit den gewonnenen Informationen
+              wähle ich dann eine Behandlungsmethode aus und spreche diese
+              gemeinsam mit dem Kunden ab. In diesem ersten Gespräch können auch
+              Unklarheiten, Fragen und Bedenken geklärt werden. Alle diese
+              Erkenntnisse fließen in die anschließende Therapiesitzung ein, um
+              den Körper bestmöglich behandeln zu können. Während der Behandlung
+              erschließt sich auch für mich, ob weitere Stunden benötigt werden.
+              Am Ende wird gemeinsam über die Sitzung und den weiteren Ablauf
+              gesprochen.
             </p>
             <h3 class="h4 mt-5">Tarife</h3>
             <div
               class="d-flex flex-row justify-content-between align-items-start"
             >
-              <p>Kranio</p>
-              <p>12,00€</p>
+              <p>Erwachsene und Familien:</p>
+              <p>€70,--/60Minuten</p>
             </div>
             <div
               class="d-flex flex-row justify-content-between align-items-start"
             >
-              <p>Kranio</p>
-              <p>12,00€</p>
+              <p>Kinder und Jugendliche:</p>
+              <p>€50,--/60Minuten</p>
             </div>
           </div>
         </div>
@@ -128,7 +135,7 @@
     </section>
     <section class="section my-lg-5 py-lg-5">
       <div class="container py-5 my-5 mt-0 col">
-        <h2 class="h1 text-center py-5">Lorem ipsum</h2>
+        <h2 class="h1 text-center py-5">Behandlungsablauf</h2>
 
         <div class="row mt-5" id="steps-for-desktop">
           <div class="col-1">
@@ -153,11 +160,12 @@
                 <div class="col"><hr /></div>
               </div>
 
-              <h3 class="h5 my-3">Kranio</h3>
+              <h3 class="h5 my-3">Erstgespräch</h3>
               <p class="lead-4">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat.
+                Für die Therapie ist ein ausführliches Einführungsgespräch zu
+                Beginn von großer Bedeutung. Oft können dabei Unklarheiten und
+                Unsicherheiten direkt angesprochen und noch vor der eigentlichen
+                Sitzung beseitigt werden.
               </p>
             </div>
             <div class="col">
@@ -175,11 +183,12 @@
                 </div>
                 <div class="col"><hr /></div>
               </div>
-              <h3 class="h5 my-3">Kranio</h3>
+              <h3 class="h5 my-3">Therapiesitzung</h3>
               <p class="lead-4">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat.
+                Anhand des Erstgespräches wird in gemeinsamer Absprache die
+                Behandlungsmethode gewählt. Die Behandlung erfolgt am
+                vollständig bekleideten Körper, sodass es für den Klienten als
+                angenehm empfunden wird
               </p>
             </div>
             <div class="col">
@@ -198,11 +207,12 @@
                 <div class="col"><hr /></div>
               </div>
 
-              <h3 class="h5 my-3">Kranio</h3>
+              <h3 class="h5 my-3">Nachbesprechung</h3>
               <p class="lead-4">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat.
+                Während der Behandlung zeigt sich für mich, ob weitere
+                Behandlungen als sinnvoll erscheinen. Dies wird dann gemeinsam
+                besprochen. Das Feedback durch den Kunden ist mir hier besonders
+                wichtig.
               </p>
             </div>
           </div>
@@ -226,13 +236,14 @@
               <div class="vl my-4"></div>
             </div>
             <span class="col">
-              <h3 class="h5 my-3">Kranio</h3>
+              <h3 class="h5 my-3">Erstgespräch</h3>
               <p class="lead-4">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat.
-              </p></span
-            >
+                Für die Therapie ist ein ausführliches Einführungsgespräch zu
+                Beginn von großer Bedeutung. Oft können dabei Unklarheiten und
+                Unsicherheiten direkt angesprochen und noch vor der eigentlichen
+                Sitzung beseitigt werden.
+              </p>
+            </span>
           </div>
           <div class="col row">
             <div
@@ -249,11 +260,12 @@
               <div class="vl my-4"></div>
             </div>
             <span class="col">
-              <h3 class="h5 my-3">Kranio</h3>
+              <h3 class="h5 my-3">Therapiesitzung</h3>
               <p class="lead-4">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat.
+                Anhand des Erstgespräches wird in gemeinsamer Absprache die
+                Behandlungsmethode gewählt. Die Behandlung erfolgt am
+                vollständig bekleideten Körper, sodass es für den Klienten als
+                angenehm empfunden wird
               </p></span
             >
           </div>
@@ -270,11 +282,12 @@
               <div class="vl my-4"></div>
             </div>
             <span class="col">
-              <h3 class="h5 my-3">Kranio</h3>
+              <h3 class="h5 my-3">Nachbesprechung</h3>
               <p class="lead-4">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat.
+                Während der Behandlung zeigt sich für mich, ob weitere
+                Behandlungen als sinnvoll erscheinen. Dies wird dann gemeinsam
+                besprochen. Das Feedback durch den Kunden ist mir hier besonders
+                wichtig.
               </p></span
             >
           </div>
@@ -286,36 +299,60 @@
         <div
           class="d-md-flex flex-md-row-reverse justify-content-md-center align-items-md-start"
         >
-          <div class="col-12 col-sm-6 col-md-5 col-lg-4 px-md-3 py-3 py-md-3" id="about-img">
+          <div
+            class="col-12 col-sm-6 col-md-5 col-lg-4 px-md-3 py-3 py-md-3"
+            id="about-img"
+          >
             <img
               src="../assets/sections/Martina_104.jpg"
               class="w-100 rounded mx-auto shadow"
             />
           </div>
-          <div class=" col-md-7 col-lg-8 px-md-3 mx-md-4 my-4 my-xl-0">
-            <h2 class="h1">Kranio</h2>
+          <div class="col-md-7 col-lg-8 px-md-3 mx-md-4 my-4 my-xl-0">
+            <h2 class="h1">Hallo, ich bin Martina!</h2>
             <p class="lead-4 my-4">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-              diam nonumy eirmod tempor invidunt ut labore et dolore magna
-              aliquyam erat.Lorem ipsum dolor sit amet, consetetur sadipscing
-              elitr, sed diam nonumy eirmod tempor invidunt ut
+              Alles begann mit einem Zeitungsartikel, über den ich 2010 eher
+              zufällig stolperte und darin von einer Diplomausbildung zur so
+              genannten „Mama Coachess“ las. Aus einem unerklärlichen Grund war
+              dabei sofort mein Interesse geweckt und irgendwie spürte ich auf
+              Anhieb, dass ich diesen Weg gehen musste.<br />
+              <br />
+              Als ich dann 2010 - 2012 tatsächlich den Lehrgang zur Diplomierten
+              Familienmentorin (Anmerkung: ehemalige Mama Coachess) absolvierte,
+              ahnte ich nicht, wie grundlegend sich mein Leben und meine
+              Weltanschauung dadurch verändern sollten.
               <br />
               <br />
-              labore et dolore magna aliquyam erat.Lorem ipsum dolor sit amet,
-              consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-              invidunt ut labore et dolore magna aliquyam erat.Lorem ipsum dolor
-              sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-              tempor invidunt ut labore et dolore magna aliquyam erat.Lorem
-              ipsum dolor sit amet, consetetur sadipscing elitr, sed
-
+              Ich spürte sehr rasch meine große Leidenschaft für die
+              Kinesiologie, in deren Welt ich bereits vor diesem Diplomlehrgang
+              durch eine Kursreihe „Touch for Health“ hineingeschnuppert hatte,
+              und die bis heute eine wichtige Säule meiner Behandlungen
+              darstellt. Es war mir nun möglich unbewusste Belastungen im Körper
+              direkt aufzuspüren und diese, dort wo sie sich festgesetzt hatten,
+              spontan zu lösen.
               <br />
               <br />
-              diam nonumy eirmod tempor invidunt ut labore et dolore magna
-              aliquyam erat.Lorem ipsum dolor sit amet, consetetur sadipscing
-              elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-              magna aliquyam erat.Lorem ipsum dolor sit amet.
+              Es folgte eine Ausbildungsreihe „Japanisches Heilströmen“ als eine
+              Art Hausapotheke für mich und meine Familie und ich war fasziniert
+              über die Reaktionen, die ich nur durch Berührung gewisser
+              Ström-Punkte auslösen konnte.
+              <br />
+              <br />
+              Meine Ausbildungen und gesammelten Erfahrungen gaben mir das
+              Gefühl, bei den Menschen etwas Heilsames in Bewegung zu setzen,
+              damit sie sich wieder frei entfalten und zu sich selbst finden
+              konnten.
+              <br />
+              <br />
+              Daher entschloss ich mich im Jahr 2017, auch eine Ausbildung zur
+              Craniosacralen Systemtherapeutin zu absolvieren und auch diese
+              Therapie-Methode bereicherte mich in meiner
+              Persönlichkeitsentwicklung ungemein. Es war dies eine ganz andere
+              Art der Therapieform als ich es bisher gewohnt war und es ist nach
+              wie vor jedes Mal aufs Neue faszinierend zu spüren, wie der
+              menschliche Körper während meiner sanften Berührungen kommuniziert
+              und sich dabei selbst reguliert. Auch diese Methode ist seit daher
+              als weitere Säule fix in meinen Behandlungsablauf integriert.
             </p>
             <h3 class="h4 mt-5">Meine Ausbildungen</h3>
             <div
@@ -330,7 +367,7 @@
                   >
                 </div>
               </div>
-              <div class="col h6">Lorem Ipsum Dolor sit Amet</div>
+              <div class="col h6">2008: Touch for Health I-IV + Metaphern</div>
             </div>
             <div
               class="d-flex flex-row justify-content-start align-items-center mt-3"
@@ -344,12 +381,88 @@
                   >
                 </div>
               </div>
-              <div class="col h6">Lorem Ipsum Dolor sit Amet</div>
+              <div class="col h6">2010: Die Metamorphische Methode</div>
+            </div>
+            <div
+              class="d-flex flex-row justify-content-start align-items-center mt-3"
+            >
+              <div class="col-auto">
+                <div
+                  class="icon-wrapping icon-wrapping-achievement d-flex flex-row justify-content-center align-items-center"
+                >
+                  <span class="material-icons material-icons-chat achievement"
+                    >military_tech</span
+                  >
+                </div>
+              </div>
+              <div class="col h6">2010: Diplomlehrgang Familienmentorin</div>
+            </div>
+            <div
+              class="d-flex flex-row justify-content-start align-items-center mt-3"
+            >
+              <div class="col-auto">
+                <div
+                  class="icon-wrapping icon-wrapping-achievement d-flex flex-row justify-content-center align-items-center"
+                >
+                  <span class="material-icons material-icons-chat achievement"
+                    >military_tech</span
+                  >
+                </div>
+              </div>
+              <div class="col h6">2013: Kursreihe Japanisches Heilströmen</div>
+            </div>
+            <div
+              class="d-flex flex-row justify-content-start align-items-center mt-3"
+            >
+              <div class="col-auto">
+                <div
+                  class="icon-wrapping icon-wrapping-achievement d-flex flex-row justify-content-center align-items-center"
+                >
+                  <span class="material-icons material-icons-chat achievement"
+                    >military_tech</span
+                  >
+                </div>
+              </div>
+              <div class="col h6">
+                2014: Kursreihe Arbeiten mit dem Ökotensor
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row justify-content-start align-items-center mt-3"
+            >
+              <div class="col-auto">
+                <div
+                  class="icon-wrapping icon-wrapping-achievement d-flex flex-row justify-content-center align-items-center"
+                >
+                  <span class="material-icons material-icons-chat achievement"
+                    >military_tech</span
+                  >
+                </div>
+              </div>
+              <div class="col h6">
+                2017: Ausbildung Cunamed Craniosacrale System-Therapie I-IV
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row justify-content-start align-items-center mt-3"
+            >
+              <div class="col-auto">
+                <div
+                  class="icon-wrapping icon-wrapping-achievement d-flex flex-row justify-content-center align-items-center"
+                >
+                  <span class="material-icons material-icons-chat achievement"
+                    >military_tech</span
+                  >
+                </div>
+              </div>
+              <div class="col h6">
+                2018: Weiterführende Ausbildung Craniosacrale Therapie V-VI
+              </div>
             </div>
             <div class="mt-3">
               <router-link to="/contact">
                 <button class="btn btn-primary mt-5" type="button">
-                  Jetzt Kontaktieren
+                  Gemeinsam zum Wohlbefinden
                 </button>
               </router-link>
             </div>
@@ -359,24 +472,39 @@
     </section>
     <section class="section my-lg-5 py-lg-5">
       <div class="container py-5 my-5 col-12 col-lg-9">
-        <h2 class="h1 text-center ">Lorem ipsum</h2>
+        <h2 class="h1 text-center">
+          Ganzheitliche Beratung während der Schwangerschaft und in den ersten
+          Lebensjahren
+        </h2>
         <p class="lead-4 mt-5">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
+          Als Diplomierte Familienmentorin stehe ich Eltern, aber vor allem
+          Frauen während der Schwangerschaft und in den ersten Lebensjahren des
+          Kindes beratend und stärkend zur Seite. Als Familienmentorin führe ich
+          keine Untersuchungen durch, sondern reiche bei Bedarf an
+          professionelle Hilfe weiter. Eine Beratung klärt Fragen und
+          UNsicherheiten wie:
         </p>
-        <div class="d-md-flex flex-md-row justify-content-center align-items-center mt-5">
+        <div
+          class="d-md-flex flex-md-row justify-content-center align-items-center mt-5"
+        >
           <div class="col">
             <div class="row mt-4">
               <div class="col-auto">
                 <span class="material-icons">arrow_circle_right</span>
               </div>
               <div class="col">
+                <p class="h5">Wie verläuft meine Schwangerschaft optimal?</p>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-auto">
+                <span class="material-icons">arrow_circle_right</span>
+              </div>
+              <div class="col">
                 <p class="h5">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                  Wie kann ich verhindern, eigene belastende
+                  Kindheitserlebnisse, Ängste oder Muster an mein Kind weiter zu
+                  geben?
                 </p>
               </div>
             </div>
@@ -386,17 +514,8 @@
               </div>
               <div class="col">
                 <p class="h5">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-                </p>
-              </div>
-            </div>
-            <div class="row mt-4">
-              <div class="col-auto">
-                <span class="material-icons">arrow_circle_right</span>
-              </div>
-              <div class="col">
-                <p class="h5">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                  Wie kann ich eine gute Bindung zu meinem Kind aufbauen und
+                  halten?
                 </p>
               </div>
             </div>
@@ -408,7 +527,7 @@
               </div>
               <div class="col">
                 <p class="h5">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                  Wie kann ich mein Kind liebevoll und behutsam fördern?
                 </p>
               </div>
             </div>
@@ -418,7 +537,8 @@
               </div>
               <div class="col">
                 <p class="h5">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                  Wie kann ich meinem schreienden Baby helfen und erkennen, was
+                  es braucht?
                 </p>
               </div>
             </div>
@@ -428,7 +548,8 @@
               </div>
               <div class="col">
                 <p class="h5">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                  Kann ich mein Kind verwöhnen? Wie und wann soll ich Grenzen
+                  setzen?
                 </p>
               </div>
             </div>
@@ -443,10 +564,10 @@
         >
           <div class="col-12 col-md-10 col-lg-7 py-5">
             <h1 class="h1 text-white">
-              Sed diam nonumy eirmod tempor invidunt ut labore
+              Dein Körper spricht zu dir, hör ihm zu
             </h1>
             <p class="h5 my-4 text-white">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+            Ich begleite ich dich sehr gerne auf deinem Weg zu innerer Balance und Wohlbefinden
             </p>
             <router-link to="/contact">
               <button class="btn btn-secondary-white mt-4" type="button">
@@ -492,7 +613,7 @@ export default {
   );
 }
 
-.h6{
+.h6 {
   margin-bottom: 0px;
 }
 
@@ -579,7 +700,7 @@ export default {
     display: block !important;
   }
 
-  #about-img img{
+  #about-img img {
     max-width: 400px;
   }
 
@@ -592,6 +713,4 @@ export default {
     margin-top: 17px;
   }
 }
-
-
 </style>

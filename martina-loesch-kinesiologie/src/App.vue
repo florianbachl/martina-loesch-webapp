@@ -32,7 +32,7 @@ html {
 }
 
 .header {
-  background:linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("assets/sections/Martina_124_flipped.jpg");
+  background:url("assets/sections/Group6.png");
   background-size:cover;
   background-position-y: 20%;
   min-height: 60vh;

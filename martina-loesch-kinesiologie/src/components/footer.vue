@@ -3,80 +3,108 @@
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-dark text-white">
       <!-- Section: Social media -->
-     
+
       <!-- Section: Social media -->
 
       <!-- Section: Links  -->
       <section class="">
-        <div class="container text-center text-md-start pt-5">
+        <div class="container text-center text-white text-md-start pt-5">
           <!-- Grid row -->
           <div class="row mt-3">
-           
-
             <!-- Grid column -->
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
               <!-- Links -->
-              <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+              <h6 class="text-uppercase fw-bold mb-4 text-white">Themen</h6>
               <p>
-                <a href="#!" class="text-reset">Angular</a>
+                <router-link to="/#kinesiologie" class="text-white"
+                  >Kinesiologie</router-link
+                >
               </p>
               <p>
-                <a href="#!" class="text-reset">React</a>
+                <router-link to="/#cranio" class="text-white"
+                  >Cranio</router-link
+                >
               </p>
               <p>
-                <a href="#!" class="text-reset">Vue</a>
+                <router-link to="/#behandlung" class="text-white"
+                  >Behandlung</router-link
+                >
               </p>
               <p>
-                <a href="#!" class="text-reset">Laravel</a>
+                <router-link to="/#about" class="text-white"
+                  >Über mich</router-link
+                >
               </p>
             </div>
             <!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
               <!-- Links -->
-              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+              <h6 class="text-uppercase fw-bold mb-4 text-white">Kontakt</h6>
               <p>
-                <a href="#!" class="text-reset">Pricing</a>
+                <router-link to="/contact" class="text-white"
+                  >Kontaktformular</router-link
+                >
               </p>
-              <p>
-                <a href="#!" class="text-reset">Settings</a>
+              <hr class="my-4" />
+              <p class="text-white">
+                <i class="fas fa-envelope"></i>
+                hello@kinesiologie-martina.at
               </p>
-              <p>
-                <a href="#!" class="text-reset">Orders</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Help</a>
+              <p class="text-white">
+                <i class="fas fa-phone text-white"></i> +43 699 10994684
               </p>
             </div>
-            <!-- Grid column -->
 
             <!-- Grid column -->
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
               <!-- Links -->
-              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-              <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-              <p>
-                <i class="fas fa-envelope me-3"></i>
-                info@example.com
+              <h6 class="text-uppercase fw-bold mb-4 text-white">Anfahrt</h6>
+              <p class="text-white">
+                <i class="fas fa-home text-white"></i> Wohnpark Ager 17
               </p>
-              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+              <p class="text-white">
+                <i class="fas fa-home text-white"></i> 4860 Lenzing
+              </p>
+              <p class="text-white">
+                <i class="fas fa-home text-white"></i> Österreich
+              </p>
             </div>
             <!-- Grid column -->
-             <!-- Grid column -->
+            <!-- Grid column -->
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               <!-- Content -->
-              <h6 class="text-uppercase fw-bold mb-4">
-                <i class="fas fa-gem me-3"></i>Company name
-              </h6>
-              <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
-              </p>
+              <img
+                src="../assets/sections/logo.png"
+                height="80"
+                class="bg-white px-3 rounded"
+                alt=""
+              />
             </div>
             <!-- Grid column -->
+          </div>
+          <hr />
+          <p>
+            <span class="px-3">
+              <router-link to="/impressum" class="text-white"
+                >Impressum</router-link
+              >
+            </span>
+            <span class="px-3">
+              <router-link to="/datenschutz" class="text-white"
+                >Datenschutz</router-link
+              ></span
+            >
+          </p>
+          <div
+            class="text-left py-4"
+            style="background-color: rgba(0, 0, 0, 0.05)"
+          >
+            Design und Umsetzung:
+            <a href="https://www.florianbachl.at" class="text-white fw-bold"
+              >Florian Bachl Software & Webdesign</a
+            >
+            <p>© 2022 Copyright: Kinesiologie Martina</p>
           </div>
           <!-- Grid row -->
         </div>
@@ -84,15 +112,7 @@
       <!-- Section: Links  -->
 
       <!-- Copyright -->
-      <div
-        class="text-center p-4"
-        style="background-color: rgba(0, 0, 0, 0.05)"
-      >
-        © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/"
-          >MDBootstrap.com</a
-        >
-      </div>
+
       <!-- Copyright -->
     </footer>
     <!-- Footer -->
