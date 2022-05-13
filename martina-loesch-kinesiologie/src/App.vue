@@ -32,7 +32,7 @@ html {
 }
 
 .header {
-  background:url("assets/sections/Group6.png");
+  background:url("assets/sections/banner.jpg");
   background-size:cover;
   background-position-y: 20%;
   min-height: 60vh;

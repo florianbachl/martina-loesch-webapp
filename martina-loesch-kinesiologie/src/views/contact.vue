@@ -14,7 +14,7 @@
             </p>
           </div>
           <div class="col">
-            <form accept-charset="UTF-8" :action="botcheck ? '':'https://www.formbackend.com/f/6a2829b2e9dd63e9'" method="POST">
+            <form accept-charset="UTF-8" :action="botcheck ? '':'https://www.formbackend.com/f/a90cca0abc26de31'" method="POST">
               <div class="form-group">
                 <label for="email">Email Adresse</label>
                 <input

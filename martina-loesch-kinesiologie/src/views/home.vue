@@ -3,19 +3,17 @@
     <header class="header">
       <div class="container py-5 mx-md-auto h-100">
         <div class="col-12 py-5 col-md-7">
-          <h1 class="h1">
-            Dein Weg zu innerer Balance und Wohlbefinden mit Heilmassagen
-          </h1>
+          <h1 class="h1">Dein Weg zu innerer Balance und Wohlbefinden</h1>
           <p class="lead-4 my-4">
-            Mit viel Gefühl und einem fundierten Fachwissen lassen sich durch
-            einfache Berührungen innere Blockaden, seelisches Ungleichgewicht
-            und Schmerzen unbekannter Ursache aufheben. Durch individuelle
+            Mit Achtsamkeit und einem fundierten Fachwissen lassen sich durch
+            sanfte Berührungen innere Blockaden, seelisches Ungleichgewicht und
+            Schmerzen unbekannter Ursache auflösen. Durch individuelle
             Behandlungsmethoden wird der Körper wieder ins Gleichgewicht
             versetzt und startet einen Selbstheilungsprozess.
           </p>
           <router-link to="/contact">
             <button class="btn btn-primary mt-4" type="button">
-            Innere Balance wiederfinden
+              Innere Balance wiederfinden
             </button></router-link
           >
         </div>
@@ -37,7 +35,7 @@
           class="d-md-flex flex-row justify-content-center align-items-center"
         >
           <div class="col mx-lg-3">
-            <img src="../assets/sections/test2.png" class="w-100" />
+            <img src="../assets/sections/kinesiologie.png" class="w-100" />
           </div>
           <div class="col mx-lg-3 px-md-4 my-4 my-md-0">
             <h2 class="h1">Kinesiologie</h2>
@@ -89,7 +87,7 @@
             >
           </div>
           <div class="col mx-lg-3">
-            <img src="../assets/Group4.png" class="w-100" />
+            <img src="../assets/sections/cranio.png" class="w-100" />
           </div>
         </div>
       </div>
@@ -100,18 +98,19 @@
           class="d-md-flex flex-row justify-content-center align-items-center"
         >
           <div class="col mx-lg-3">
-            <img src="../assets/Group1.png" class="w-100" />
+            <img src="../assets/sections/behandlung.png" class="w-100" />
           </div>
           <div class="col mx-lg-3 px-md-4 my-4 my-md-0">
-            <h2 class="h1">Die richtige Behandlung für Sie</h2>
+            <h2 class="h1">Die richtige Behandlung</h2>
             <p class="lead-4 my-4">
               Als Therapeutin ist für mich zu Beginn wichtig, die Wünsche und
-              Probleme des Kunden zu erfragen. Mit den gewonnenen Informationen
-              wähle ich dann eine Behandlungsmethode aus und spreche diese
-              gemeinsam mit dem Kunden ab. In diesem ersten Gespräch können auch
-              Unklarheiten, Fragen und Bedenken geklärt werden. Alle diese
-              Erkenntnisse fließen in die anschließende Therapiesitzung ein, um
-              den Körper bestmöglich behandeln zu können. Während der Behandlung
+              Probleme des Klienten zu erfragen. Mit den gewonnenen
+              Informationen wähle ich dann eine Behandlungsmethode aus und
+              spreche diese gemeinsam mit dem Klienten ab. In diesem ersten
+              Gespräch können auch Unklarheiten, Fragen und Bedenken geklärt
+              werden. Alle diese Erkenntnisse fließen in die anschließende
+              Therapiesitzung ein, um den Körper bei der Selbstregulation
+              bestmöglich unterstützen zu können. Während der Behandlung
               erschließt sich auch für mich, ob weitere Stunden benötigt werden.
               Am Ende wird gemeinsam über die Sitzung und den weiteren Ablauf
               gesprochen.
@@ -188,7 +187,7 @@
                 Anhand des Erstgespräches wird in gemeinsamer Absprache die
                 Behandlungsmethode gewählt. Die Behandlung erfolgt am
                 vollständig bekleideten Körper, sodass es für den Klienten als
-                angenehm empfunden wird
+                angenehm empfunden wird.
               </p>
             </div>
             <div class="col">
@@ -211,8 +210,8 @@
               <p class="lead-4">
                 Während der Behandlung zeigt sich für mich, ob weitere
                 Behandlungen als sinnvoll erscheinen. Dies wird dann gemeinsam
-                besprochen. Das Feedback durch den Kunden ist mir hier besonders
-                wichtig.
+                besprochen. Das Feedback durch den Klienten ist mir hier
+                besonders wichtig.
               </p>
             </div>
           </div>
@@ -286,8 +285,8 @@
               <p class="lead-4">
                 Während der Behandlung zeigt sich für mich, ob weitere
                 Behandlungen als sinnvoll erscheinen. Dies wird dann gemeinsam
-                besprochen. Das Feedback durch den Kunden ist mir hier besonders
-                wichtig.
+                besprochen. Das Feedback durch den Klienten ist mir hier
+                besonders wichtig.
               </p></span
             >
           </div>
@@ -363,7 +362,7 @@
                   class="icon-wrapping icon-wrapping-achievement d-flex flex-row justify-content-center align-items-center"
                 >
                   <span class="material-icons material-icons-chat achievement"
-                    >military_tech</span
+                    >favorite</span
                   >
                 </div>
               </div>
@@ -377,7 +376,7 @@
                   class="icon-wrapping icon-wrapping-achievement d-flex flex-row justify-content-center align-items-center"
                 >
                   <span class="material-icons material-icons-chat achievement"
-                    >military_tech</span
+                    >favorite</span
                   >
                 </div>
               </div>
@@ -391,7 +390,7 @@
                   class="icon-wrapping icon-wrapping-achievement d-flex flex-row justify-content-center align-items-center"
                 >
                   <span class="material-icons material-icons-chat achievement"
-                    >military_tech</span
+                    >favorite</span
                   >
                 </div>
               </div>
@@ -405,7 +404,7 @@
                   class="icon-wrapping icon-wrapping-achievement d-flex flex-row justify-content-center align-items-center"
                 >
                   <span class="material-icons material-icons-chat achievement"
-                    >military_tech</span
+                    >favorite</span
                   >
                 </div>
               </div>
@@ -419,7 +418,7 @@
                   class="icon-wrapping icon-wrapping-achievement d-flex flex-row justify-content-center align-items-center"
                 >
                   <span class="material-icons material-icons-chat achievement"
-                    >military_tech</span
+                    >favorite</span
                   >
                 </div>
               </div>
@@ -435,7 +434,7 @@
                   class="icon-wrapping icon-wrapping-achievement d-flex flex-row justify-content-center align-items-center"
                 >
                   <span class="material-icons material-icons-chat achievement"
-                    >military_tech</span
+                    >favorite</span
                   >
                 </div>
               </div>
@@ -451,7 +450,7 @@
                   class="icon-wrapping icon-wrapping-achievement d-flex flex-row justify-content-center align-items-center"
                 >
                   <span class="material-icons material-icons-chat achievement"
-                    >military_tech</span
+                    >favorite</span
                   >
                 </div>
               </div>
@@ -482,7 +481,7 @@
           Kindes beratend und stärkend zur Seite. Als Familienmentorin führe ich
           keine Untersuchungen durch, sondern reiche bei Bedarf an
           professionelle Hilfe weiter. Eine Beratung klärt Fragen und
-          UNsicherheiten wie:
+          Unsicherheiten wie:
         </p>
         <div
           class="d-md-flex flex-md-row justify-content-center align-items-center mt-5"
@@ -567,7 +566,8 @@
               Dein Körper spricht zu dir, hör ihm zu
             </h1>
             <p class="h5 my-4 text-white">
-            Ich begleite ich dich sehr gerne auf deinem Weg zu innerer Balance und Wohlbefinden
+              Ich begleite ich dich sehr gerne auf deinem Weg zu innerer Balance
+              und Wohlbefinden
             </p>
             <router-link to="/contact">
               <button class="btn btn-secondary-white mt-4" type="button">
