@@ -77,7 +77,7 @@
               <img
                 src="../assets/sections/logo.png"
                 height="80"
-                class="bg-white px-3 rounded"
+                class="bg-white px-3 py-1 rounded"
                 alt=""
               />
             </div>

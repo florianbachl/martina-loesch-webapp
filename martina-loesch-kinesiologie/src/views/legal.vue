@@ -26,9 +26,9 @@
         <p>
           Anwendbares Recht: Gewo
           <br /><br />
-          Aufsichtsbehörde: Marktgemeinde Lenzing
+          Aufsichtsbehörde: Bezirkshauptmannschaft Vöcklabruck
           <br /><br />
-          Wirtschaftskammer: WKO Vöklabruck / Energetiker-Gewerbe
+          Wirtschaftskammer: WKO Vöcklabruck / Energetiker-Gewerbe
           <br /><br />
           Info lt. EKG
           <br /><br />

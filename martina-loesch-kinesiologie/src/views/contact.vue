@@ -4,7 +4,7 @@
       class="bg-grey vh-100 d-flex flex-row justify-content-between align-items-center"
     >
       <div class="container col-12">
-        <div class="row">
+        <div class="d-md-flex flex-md-row">
           <div class="col">
             <h1 class="h1">
               Kontakt

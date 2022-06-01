@@ -74,7 +74,7 @@
               gesamte Rückenmark fließt. Dadurch werden rhythmische Bewegungen
               in den Knochenanteilen des craniosacralen Systems erzeugt, die
               über die Verbindung durch das Bindegewebe aber überall am Körper
-              wahrnehmbar sind. Sollte der Liqour durch Vorliegen von
+              wahrnehmbar sind. Sollte der Liquor durch Vorliegen von
               Verspannungen oder Blockaden nicht mehr frei fließen können, kann
               es zu Beschwerden aller Art kommen. Durch sanfte und
               unterstützende Berührungen kann die Selbstheilung angeregt werden,
@@ -111,7 +111,7 @@
               werden. Alle diese Erkenntnisse fließen in die anschließende
               Therapiesitzung ein, um den Körper bei der Selbstregulation
               bestmöglich unterstützen zu können. Während der Behandlung
-              erschließt sich auch für mich, ob weitere Stunden benötigt werden.
+              erschließt sich auch für mich, ob weitere Termine benötigt werden.
               Am Ende wird gemeinsam über die Sitzung und den weiteren Ablauf
               gesprochen.
             </p>
@@ -209,7 +209,7 @@
               <h3 class="h5 my-3">Nachbesprechung</h3>
               <p class="lead-4">
                 Während der Behandlung zeigt sich für mich, ob weitere
-                Behandlungen als sinnvoll erscheinen. Dies wird dann gemeinsam
+                Termine sinnvoll erscheinen. Dies wird dann gemeinsam
                 besprochen. Das Feedback durch den Klienten ist mir hier
                 besonders wichtig.
               </p>
@@ -284,7 +284,7 @@
               <h3 class="h5 my-3">Nachbesprechung</h3>
               <p class="lead-4">
                 Während der Behandlung zeigt sich für mich, ob weitere
-                Behandlungen als sinnvoll erscheinen. Dies wird dann gemeinsam
+                Termine als sinnvoll erscheinen. Dies wird dann gemeinsam
                 besprochen. Das Feedback durch den Klienten ist mir hier
                 besonders wichtig.
               </p></span
@@ -566,7 +566,7 @@
               Dein Körper spricht zu dir, hör ihm zu
             </h1>
             <p class="h5 my-4 text-white">
-              Ich begleite ich dich sehr gerne auf deinem Weg zu innerer Balance
+              Ich begleite dich sehr gerne auf deinem Weg zu innerer Balance
               und Wohlbefinden
             </p>
             <router-link to="/contact">
