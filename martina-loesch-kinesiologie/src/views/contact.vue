@@ -29,7 +29,7 @@
                   placeholder="martina@kinesiologie.com"
                 />
               </div>
-              <div class="form-group">
+              <div class="form-group mt-3">
                 <label for="phone">Telefon</label>
                 <input
                   type="tel"
