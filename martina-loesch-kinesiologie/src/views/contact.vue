@@ -6,15 +6,17 @@
       <div class="container col-12">
         <div class="d-md-flex flex-md-row">
           <div class="col">
-            <h1 class="h1">
-              Kontakt
-            </h1>
-            <p class="lead-4 my-4">
-              Erzähl mir etwas mehr über deine Anfrage
-            </p>
+            <h1 class="h1">Kontakt</h1>
+            <p class="lead-4 my-4">Erzähl mir etwas mehr über deine Anfrage</p>
           </div>
           <div class="col">
-            <form accept-charset="UTF-8" :action="botcheck ? '':'https://www.formbackend.com/f/a90cca0abc26de31'" method="POST">
+            <form
+              accept-charset="UTF-8"
+              :action="
+                botcheck ? '' : 'https://www.formbackend.com/f/a90cca0abc26de31'
+              "
+              method="POST"
+            >
               <div class="form-group">
                 <label for="email">Email Adresse</label>
                 <input
@@ -25,6 +27,18 @@
                   v-model="email"
                   required
                   placeholder="martina@kinesiologie.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Telefon</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  class="form-control"
+                  id="phone"
+                  v-model="phone"
+                  required
+                  placeholder="0660 5773434"
                 />
               </div>
               <div class="form-group mt-3">
@@ -95,6 +109,7 @@ export default {
       botcheck: false,
       email: "",
       name: "",
+      phone: "",
       chosenoption: null,
       options: [
         "Ich möchte einen Termin buchen",
@@ -103,16 +118,6 @@ export default {
         "Andere ...",
       ],
     };
-  },
-  components: {},
-  computed: {},
-  watch: {},
-  methods: {
-    sendemail(){
-      if(!this.botcheck){
-        console.log("I am in");
-      }
-    }
   },
   mounted() {
     window.scrollTo(0, 0);
